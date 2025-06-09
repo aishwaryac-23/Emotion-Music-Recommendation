@@ -1,0 +1,139 @@
+<html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title>FaceTuneAI</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../static/css/bootstrap.css">
+        <link rel="stylesheet" href="../static/vendors/linericon/style.css">
+        <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../static/vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="../static/vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="../static/vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="../static/vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="../static/vendors/popup/magnific-popup.css">
+        <link rel="stylesheet" href="../static/vendors/flaticon/flaticon.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="../static/css/responsive.css">
+    </head>
+    <body>
+        
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+            <div class="main_menu">
+            	<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container box_1620">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="index.html"><span style="color:#FFFFFF">FaceTuneAI</span></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="/pro1">Home</a></li> 
+								<li class="nav-item"><a class="nav-link" href="/pro1">Training</a></li> 
+								<li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>  
+								
+							</ul>
+						</div> 
+					</div>
+            	</nav>
+            </div>
+        </header>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="banner_area">
+            <div class="box_1620">
+				<div class="banner_inner d-flex align-items-center">
+					<div class="container">
+						<div class="banner_content text-center">
+							<h2>Admin</h2>
+							<div class="page_link">
+								<a href="index.html">Home</a>
+								<a href="services.html">Admin</a>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        
+       <!--================Feature Area =================-->
+<section class="feature_area white_feature p_120">
+    <div class="container">
+        <div class="main_title">
+            <h2>Data Exploration</h2>
+            
+        </div>
+        <div class="feature_inner row">
+            <!-- Login Form -->
+            <div class="col-md-12 mx-auto">
+                <div class="table-wrap"  style="height:900px; width:1100px; overflow:auto">
+						<table width="1100" border="1" align="center" class="table table-striped thead-dark table-bordered table-hover">
+												<tr>
+												
+												<th>Label_id</th>
+												<th>Std_dev_intensity</th>
+												<th>Label</th>
+												<th>reIFCS</th>
+												<th>Eyes_open</th>
+												<th>Smile_score</th>
+												
+												
+												</tr>
+												{% for rs in data %}
+												<tr>
+												<td>{{rs[0]}}</td>
+												<td>{{rs[1]}}</td>
+												<td>{{rs[2]}}</td>
+												<td>{{rs[3]}}</td>
+												<td>{{rs[4]}}</td>
+												<td>{{rs[5]}}</td>
+												
+												
+												
+												</tr>
+												{% endfor %}
+												</table>
+												<div>
+            </div>
+            <!-- End of Login Form -->
+
+           
+        </div><br><br>
+		<p align="center">  <a class="btn btn-primary" href="/pro2">Preprocessing</a></p>
+    </div>
+</section>
+<!--================End Feature Area =================-->
+
+      
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="../static/js/jquery-3.3.1.min.js"></script>
+        <script src="../static/js/popper.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+        <script src="../static/js/stellar.js"></script>
+        <script src="../static/vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="../static/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="../static/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="../static/vendors/isotope/isotope.pkgd.min.js"></script>
+        <script src="../static/vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="../static/vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="../static/js/jquery.ajaxchimp.min.js"></script>
+        <script src="../static/vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="../static/vendors/counter-up/jquery.counterup.min.js"></script>
+        <script src="../static/js/mail-script.js"></script>
+        <script src="../static/js/theme.js"></script>
+    </body>
+</html>

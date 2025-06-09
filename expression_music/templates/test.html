@@ -1,0 +1,192 @@
+<html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title>FaceTuneAI</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../static/css/bootstrap.css">
+        <link rel="stylesheet" href="../static/vendors/linericon/style.css">
+        <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../static/vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="../static/vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="../static/vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="../static/vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="../static/vendors/popup/magnific-popup.css">
+        <link rel="stylesheet" href="../static/vendors/flaticon/flaticon.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="../static/css/responsive.css">
+		<style>
+        #body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        #video-container {
+            width: 640px;
+            height: 480px;
+            border: 2px solid black;
+        }
+       .song-list {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.song-list h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.song-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.song-list li {
+    background: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.song-list button {
+    background: #ff3300;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.song-list button:hover {
+    background: #cc2900;
+}
+
+       
+    </style>
+    </head>
+    <body>
+        
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+            <div class="main_menu">
+            	<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container box_1620">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="index.html"><span style="color:#FFFFFF">FaceTuneAI</span></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="/add_song">Home</a></li>
+								<li class="nav-item"><a class="nav-link" href="/add_song">Train Model</a></li>  
+								<li class="nav-item"><a class="nav-link" href="/test">Analyze</a></li> 
+								<li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li> 
+								
+							</ul>
+						</div> 
+					</div>
+            	</nav>
+            </div>
+        </header>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="banner_area">
+            <div class="box_1620">
+				<div class="banner_inner d-flex align-items-center">
+					<div class="container">
+						<div class="banner_content text-center">
+							<h2>User</h2>
+							<div class="page_link">
+								<a href="index.html">Home</a>
+								<a href="services.html">User</a>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        <div>&nbsp;</div><div>&nbsp;</div>
+        
+<div id="body" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <!-- Video Area -->
+    <div align="center" style="width: 50%; text-align: center;">
+        <h2 align="center" style="color: #ff3300;">Face Emotion Recognition</h2>
+        <div align="center" style="margin: 10px; text-align: center; width: 100%; border: 2px solid #ccc; border-radius: 10px; overflow: hidden;">
+            <img class="outer-shadow" id="bg" class="center img-fluid" src="{{ url_for('video_feed') }}" style="max-width: 100%; max-height: 100%;" />
+        </div>
+		<!-- Capture Button -->
+        <button id="capture">Capture Emotion</button>
+<div>&nbsp;</div>
+        <div id="captured_image_container" style="display: none;">
+        <h3>Captured Image:</h3>
+        <img id="captured_image" src="" width="300px">
+    </div><br><br>
+	<h2  align="center" style="color: #ff3300;">Detected Emotion: <span id="detected_emotion"></span></h2><br><br>
+
+        <!-- Songs List -->
+		<div align="center"
+        <div class="song-list" align="center">
+    <h4 style="color: #ff3300; text-align: center;">Recommended Songs</h4>
+    <ul id="song_list" class="list-group"></ul>
+</div>
+</div>
+    </div>
+   
+</div>
+
+
+	
+	</div>
+
+</body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+       document.getElementById("capture").addEventListener("click", function() {
+    fetch("/capture_image")
+    .then(response => response.json())
+    .then(data => {
+        if (data.image) {
+            document.getElementById("captured_image_container").style.display = "block";
+            document.getElementById("captured_image").src = data.image;
+        }
+        document.getElementById("detected_emotion").innerText = data.emotion;
+
+        let songList = document.getElementById("song_list");
+        songList.innerHTML = "";
+        data.songs.forEach(song => {
+            let li = document.createElement("li");
+            li.innerHTML = `<span>${song}</span> 
+                <button onclick="playSong('${song}')">▶ Play</button>`;
+            songList.appendChild(li);
+        });
+    });
+});
+
+function playSong(song) {
+    let audio = new Audio(`/static/songs/${song}`);
+    audio.play();
+}
+
+    </script>
+
+</html>
+

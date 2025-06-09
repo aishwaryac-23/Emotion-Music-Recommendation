@@ -1,0 +1,63 @@
+,Name,Album,Artist,
+0,Herbs and Spices,NULL,Herbs and Spices,Herbs and Spices
+1,Pulses,,Pulses,Pulses
+2,Animal foods,NULL,Animal foods,Animal foods
+3,Mollusks,NULL,Aquatic foods,Mollusks
+4,Nuts,NULL,Nuts,Nuts
+5,Beverages,NULL,Beverages,Beverages
+6,Fruits,NULL,Fruits,Fruits
+7,Green vegetables,NULL,Vegetables,Green vegetables
+8,Root vegetables,NULL,Vegetables,Root vegetables
+9,Sunburst squash (pattypan squash),Cucurbita pepo var. clypeata,Gourds,Gourds
+10,Green zucchini,Cucurbita pepo var. cylindrica,Gourds,Gourds
+11,Yellow zucchini,Cucurbita pepo var. cylindrica,Gourds,Gourds
+12,Green bell pepper,Capsicum annuum,Vegetables,Fruit vegetables
+13,Yellow bell pepper,Capsicum annuum,Vegetables,Fruit vegetables
+14,Orange bell pepper,Capsicum annuum,Vegetables,Fruit vegetables
+15,Red bell pepper,Capsicum annuum,Vegetables,Fruit vegetables
+16,Italian sweet red pepper,Capsicum annuum,Vegetables,Fruit vegetables
+17,Yellow wax bean,Phaseolus vulgaris,Pulses,Beans
+18,Green bean,Phaseolus vulgaris,Pulses,Beans
+19,Saskatoon berry,Amelanchier alnifolia,Fruits,Berries
+20,Nanking cherry,Prunus tomentosa,Fruits,Berries
+21,Japanese pumpkin,Cucurbita maxima,Gourds,Gourds
+22,White cabbage,Brassica oleracea L. var. capitata L. f. alba DC.,Vegetables,Cabbages
+23,Romaine lettuce,Lactuca sativa L. var. longifolia,Vegetables,Leaf vegetables
+24,"Cow milk, pasteurized, vitamin A + D added, 0% fat",,Milk and milk products,Unfermented milks
+25,"Cow milk, pasteurized, vitamin A + D added, 1% fat",,Milk and milk products,Unfermented milks
+26,"Cow milk, pasteurized, vitamin A + D added, 2% fat",,Milk and milk products,Unfermented milks
+27,"Cow milk, pasteurized, vitamin D added, 3.25% fat",,Milk and milk products,Unfermented milks
+28,Turkey,Meleagris gallopavo,Animal foods,Poultry
+29,"Cattle (Beef, Veal)",Bos taurus,Animal foods,Bovines
+30,Walleye,Sander vitreus,Aquatic foods,Fishes
+31,Alaska pollock,Theragra chalcogramma,Aquatic foods,Fishes
+32,Wasabi,Wasabia japonica,Herbs and Spices,Spices
+33,Wax gourd,Benincasa hispida,Gourds,Gourds
+34,Whelk,Buccinidae,Aquatic foods,Mollusks
+35,Coalfish pollock,Pollachius virens,Aquatic foods,Fishes
+36,Broad whitefish,Coregonus nasus,Aquatic foods,Fishes
+37,Whitefish,Coregonus,Aquatic foods,Fishes
+38,Whiting,Merlangius merlangus,Aquatic foods,Fishes
+39,Wild rice,Zizania,Cereals and cereal products,Cereals
+40,Tea leaf willow,Salix pulchra,Herbs and Spices,Herbs
+41,Winged bean,Psophocarpus tetragonolobus,Pulses,Beans
+42,Yam,Dioscorea,Vegetables,Tubers
+43,Jicama,Pachyrhizus erosus,Vegetables,Root vegetables
+44,Yautia,Xanthosoma sagittifolium,Vegetables,Leaf vegetables
+45,Yellowfin tuna,Thunnus albacares,Aquatic foods,Fishes
+46,Yellowtail amberjack,Seriola lalandi,Aquatic foods,Fishes
+47,Pollock,Pollachius,Aquatic foods,Fishes
+48,Albacore tuna,Thunnus alalunga,Aquatic foods,Fishes
+49,Gadus (Common cod),Gadus,Aquatic foods,Fishes
+50,Atlantic halibut,Hippoglossus hippoglossus,Aquatic foods,Fishes
+51,Pacific halibut,Hippoglossus stenolepis,Aquatic foods,Fishes
+52,Pacific salmon,Oncorhynchus,Aquatic foods,Fishes
+53,Smelt,Osmeridae,Aquatic foods,Fishes
+54,"Clupeinae (Herring, Sardine, Sprat)",Clupeinae,Aquatic foods,Fishes
+55,Spiny lobster,Palinuridae,Aquatic foods,Crustaceans
+56,Snow crab,Chionoecetes opilio,Aquatic foods,Crustaceans
+57,Black-eyed pea,Vigna unguiculata ssp. unguiculata,Pulses,Peas
+58,Deer,Cervidae,Animal foods,Venison
+59,Macadamia nut,Macadamia,Nuts,Nuts
+60,Percoidei (Bass and others),Percoidei,Aquatic foods,Fishes
+61,Perciformes (Perch-like fishes),Perciformes,Aquatic foods,Fishes

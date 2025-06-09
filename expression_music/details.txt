@@ -1,0 +1,5 @@
+std_dev_intensity	-       Standard deviation of pixel values
+
+reifcs   -   Average pixel intensity
+
+smaile_score	-	Probability score for a smile

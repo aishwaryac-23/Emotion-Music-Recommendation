@@ -1,0 +1,101 @@
+,Name,Album,Artist,
+0,Pacific sardine,Sardinops sagax,Aquatic foods,Fishes
+1,Scallop,Pectinidae,Aquatic foods,Mollusks
+2,Scup,Stenotomus chrysops,Aquatic foods,Fishes
+3,Sea cucumber,Parastichopus californicus,Aquatic foods,Other aquatic foods
+4,Steller sea lion,Eumetopias jubatus,Aquatic foods,Pinnipeds
+5,Bearded seal,Erignathus barbatus,Aquatic foods,Pinnipeds
+6,Ringed seal,Pusa hispida,Aquatic foods,Pinnipeds
+7,Seatrout,Cynoscion,Aquatic foods,Fishes
+8,Sesbania flower,Sesbania bispinosa,Vegetables,Other vegetables
+9,American shad,Alosa sapidissima,Aquatic foods,Fishes
+10,Shark,Squaliformes,Aquatic foods,Fishes
+11,Sheefish,Stenodus leucichthys,Aquatic foods,Fishes
+12,"Sheep (Mutton, Lamb)",Ovis aries,Animal foods,Ovis
+13,Sheepshead,Archosargus probatocephalus,Aquatic foods,Fishes
+14,Hedge mustard,Sisymbrium,Herbs and Spices,Other seeds
+15,Skipjack tuna,Katsuwonus pelamis,Aquatic foods,Fishes
+16,Snapper,Lutjanidae,Aquatic foods,Fishes
+17,Soursop,Annona muricata,Fruits,Tropical fruits
+18,Spelt,Triticum spelta,Cereals and cereal products,Cereals
+19,Spirulina,Spirulina,Aquatic foods,Seaweed
+20,Squab,Columba,Animal foods,Poultry
+21,Squirrel,Sciuridae,Animal foods,Rodents
+22,Strawberry guava,Psidium cattleianum,Fruits,Berries
+23,Greater sturgeon,Acipenser,Aquatic foods,Fishes
+24,White sucker,Catostomus commersonii,Aquatic foods,Fishes
+25,Sugar apple,Annona squamosa,Fruits,Tropical fruits
+26,Pumpkinseed sunfish,Lepomis gibbosus,Aquatic foods,Fishes
+27,Swordfish,Xiphias gladius,Aquatic foods,Fishes
+28,Taro,Colocasia esculenta,Vegetables,Root vegetables
+29,Teff,Eragrostis tef,Herbs and Spices,Herbs
+30,Tilefish,Lopholatilus chamaeleonticeps,Aquatic foods,Fishes
+31,Mexican groundcherry,Physalis philadelphica var. immaculata,Vegetables,Fruit vegetables
+32,Towel gourd,Luffa aegyptiaca,Gourds,Gourds
+33,"Salmonidae (Salmon, Trout)",Salmonidae,Aquatic foods,Fishes
+34,Turkey,Meleagris gallopavo,Animal foods,Poultry
+35,"Cattle (Beef, Veal)",Bos taurus,Animal foods,Bovines
+36,Walleye,Sander vitreus,Aquatic foods,Fishes
+37,Alaska pollock,Theragra chalcogramma,Aquatic foods,Fishes
+38,Wasabi,Wasabia japonica,Herbs and Spices,Spices
+39,Wax gourd,Benincasa hispida,Gourds,Gourds
+40,Whelk,Buccinidae,Aquatic foods,Mollusks
+41,Coalfish pollock,Pollachius virens,Aquatic foods,Fishes
+42,Broad whitefish,Coregonus nasus,Aquatic foods,Fishes
+43,Whitefish,Coregonus,Aquatic foods,Fishes
+44,Whiting,Merlangius merlangus,Aquatic foods,Fishes
+45,Wild rice,Zizania,Cereals and cereal products,Cereals
+46,Tea leaf willow,Salix pulchra,Herbs and Spices,Herbs
+47,Winged bean,Psophocarpus tetragonolobus,Pulses,Beans
+48,Yam,Dioscorea,Vegetables,Tubers
+49,Jicama,Pachyrhizus erosus,Vegetables,Root vegetables
+50,Yautia,Xanthosoma sagittifolium,Vegetables,Leaf vegetables
+51,Yellowfin tuna,Thunnus albacares,Aquatic foods,Fishes
+52,Yellowtail amberjack,Seriola lalandi,Aquatic foods,Fishes
+53,Pollock,Pollachius,Aquatic foods,Fishes
+54,Albacore tuna,Thunnus alalunga,Aquatic foods,Fishes
+55,Gadus (Common cod),Gadus,Aquatic foods,Fishes
+56,Atlantic halibut,Hippoglossus hippoglossus,Aquatic foods,Fishes
+57,Pacific halibut,Hippoglossus stenolepis,Aquatic foods,Fishes
+58,Pacific salmon,Oncorhynchus,Aquatic foods,Fishes
+59,Smelt,Osmeridae,Aquatic foods,Fishes
+60,"Clupeinae (Herring, Sardine, Sprat)",Clupeinae,Aquatic foods,Fishes
+61,Spiny lobster,Palinuridae,Aquatic foods,Crustaceans
+62,Snow crab,Chionoecetes opilio,Aquatic foods,Crustaceans
+63,Black-eyed pea,Vigna unguiculata ssp. unguiculata,Pulses,Peas
+64,Deer,Cervidae,Animal foods,Venison
+65,Macadamia nut,Macadamia,Nuts,Nuts
+66,Percoidei (Bass and others),Percoidei,Aquatic foods,Fishes
+67,Perciformes (Perch-like fishes),Perciformes,Aquatic foods,Fishes
+68,Arctic ground squirrel,Urocitellus parryii,Animal foods,Rodents
+69,Rabbit,Leporidae,Animal foods,Lagomorphs
+70,Domestic goat,Capra aegagrus hircus,Animal foods,Caprae
+71,Beefalo,Bos taurus X Bison bison,Animal foods,Bovines
+72,Antelope,Artiodactyla,Animal foods,Venison
+73,"Bivalvia (Clam, Mussel, Oyster)",Bivalvia,Aquatic foods,Mollusks
+74,Squid,Teuthida,Aquatic foods,Mollusks
+75,Shrimp,Caridea,Aquatic foods,Crustaceans
+76,Crayfish,Astacidea,Aquatic foods,Crustaceans
+77,Flatfish,Pleuronectiformes,Aquatic foods,Fishes
+78,"Domestic pig (Piglet, Pork)",Sus scrofa domestica,Animal foods,Swine
+79,Walrus,Odobenus rosmarus,Aquatic foods,Pinnipeds
+80,Alaska wild rhubarb,Polygonum alpinum,Vegetables,Stalk vegetables
+81,Oriental wheat,Triticum turanicum,Cereals and cereal products,Cereals
+82,Yardlong bean,Vigna unguiculata ssp. sesquipedalis,Pulses,Peas
+83,Great horned owl,Bubo virginianus,Animal foods,Poultry
+84,Quail,Phasianidae,Animal foods,Poultry
+85,Boysenberry,Rubus ursinus X idaeus,Fruits,Berries
+86,Persian lime,Citrus latifolia,Fruits,Citrus
+87,Feijoa,Feijoa sellowiana,Fruits,Tropical fruits
+88,Rowal,Pangium edule,Herbs and Spices,Other seeds
+89,Jew's ear,Auricularia auricula-judae,Vegetables,Mushrooms
+90,Common mushroom,Agaricus bisporus,Vegetables,Mushrooms
+91,Shiitake,Lentinus edodes,Vegetables,Mushrooms
+92,Purple laver,Porphyra laciniata,Aquatic foods,Seaweed
+93,Wakame,Undaria pinnatifida,Aquatic foods,Seaweed
+94,Enokitake,Flammulina velutipes,Vegetables,Mushrooms
+95,Epazote,Dysphania ambrosioides,Herbs and Spices,Herbs
+96,Oyster mushroom,Pleurotus ostreatus,Vegetables,Mushrooms
+97,Cloud ear fungus,Auricularia polytricha,Vegetables,Mushrooms
+98,Maitake,Grifola frondosa,Vegetables,Mushrooms
+99,Ostrich fern,Matteuccia struthiopteris,Vegetables,Leaf vegetables
